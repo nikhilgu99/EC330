@@ -1,3 +1,7 @@
+# HW 7
+
+### Problem 4
+
 You are provided with a map representing characters and their frequencies, in  
 main.cpp, as well as a text file, encoded.txt, containing Huffman encoded text.  
 Implement a Huffman class that generates a Huffman tree from the provided map,  
