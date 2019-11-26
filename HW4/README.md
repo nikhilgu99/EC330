@@ -32,3 +32,5 @@ The printData function in the provided main.cpp could give the following output:
 Implement the SkipList class such that it could be compiled and ran with the provided  
 main.cpp file. To do so, you are allowed to add methods and members to the  
 LinkedList class and to the SkipList class.  
+
+*NOTE: Didn't completely get insert function to work.*
