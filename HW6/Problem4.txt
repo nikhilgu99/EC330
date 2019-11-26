@@ -1,0 +1,9 @@
+4A) We go through every character, and when we find a character matching "U",  we look at the next 8 characters, and check if they are all numbers. Then, we check the one character after, and if it is a letter, we push it to a vector containing all the ID's found. Finally, we sort this vector and filter out any duplicates to only have the unique ones, and print out the size of this vector.
+
+4B) We take in every word from the file, and for the length of every word, we look at every digit, and as soon as we find a number, we leave that word and move to the next. If no number is found, we increment a counter, and at the end of the function, we print out the value of this counter variable.
+
+4C) We use nested while loops, and for every character, we append following characters to create a string that we pass to a helper function, checkPangram(). If this returns true, and the pangram is smaller than a previously found one, we replace it, break out of the inner loop, and repeat for every character in the text file.
+
+*NOTE* Our fourC took ~30 minutes to run, and an output that was produced on BigData.txt has been provided as fourC.jpg in the zip file, it was 33 characters long, including spaces and numbers. The picture shows the iterations of our smallest pangram for testing, but the fourC function will only output the last line shown in the picture.
+
+likTJEc7ZaubhVQes0qMo RwmDX GP8Yf
