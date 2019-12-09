@@ -1,0 +1,14 @@
+** Our executable took about 30-45 seconds to run, and produced a cost of: $1,166,156 **
+
+We created a graph class which took in the text file from the main.
+
+First, it took in all the unique location codes (1497 of them) into a vector.
+
+Then we created a 2D vector with the dimensions of the previous vector, with the indices being the cost of the edge between the 2 respective locations.
+
+Then we used Prim's algorithm to find shortest paths between nodes, and recorded these, along with visited locations and the predecessor of the locations in 3 vectors, which are of size V (1497). We also kept track of the cost of each path during this part.
+
+(Still part of prims)
+Then, using a temporary list for the intermediate steps (smaller paths), and a total list (to keep of track of the entire path), we used the 3 previous vectors to find this total path.
+
+Finally, we cleaned out the total list from placeholder values of -1, and iterated though it, using the locations in order in this list to get the correct city list from the original cities vector. We then read the cost and path in order into the path.txt file.
